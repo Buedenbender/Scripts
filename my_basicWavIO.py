@@ -6,7 +6,7 @@ import os
 """
 Written by BxDx92 / Durzo, 2018
     -Basic IO functions for WAV Files
-        -playSelection plays a section from start for start+length 
+        -playSelection plays a section from start for start+length
         -cut selection writes a new wav file from start to start+length
 """
 
@@ -93,5 +93,3 @@ def cutSelection(filename, outFilename="", startInSec = 7, lengthInSec = 4):
 
 if __name__ == "__main__":
     pass
-    # playSelection('/home/durzo/Schreibtisch/Scripts/TestAudioFiles/tesst.txt')
-    # cutSelection('/home/durzo/Schreibtisch/Scripts/TestAudioFiles/diarizationExample2.wav','/home/durzo/Schreibtisch/Scripts/TestAudioFiles/diarz_01.wav',0,2)
